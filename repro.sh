@@ -9,7 +9,7 @@ git clone https://github.com/p-sam/electron-prompt.git
   yarn link
 )
 
-electron-forge init --template=vue repro-project
+electron-forge init repro-project
 cp -t repro-project/src repro.js index.html
 cd repro-project
 
